@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^video/([^/]+)/?$ view.php?slug=$1 [L,QSA]
